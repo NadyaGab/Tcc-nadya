@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="paginaLOGIN.css" rel="stylesheet" type="text/css" />
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- BANNER (IMAGEM DA LOGO DA PARANOÁ) -->
+    <div class="banner">
+        <img src="paranoaTCC.png" alt="paranoá" width="45%">
+    </div>
+
+
+    <!-- LOGIN DO USUARIO -->
+    <div class="inputs">
+        
+        <div class="titulo">
+            <h2> LOGIN </h2>
+            <p> Por favor, informar seu RE de identificação e senha.</p>
+        </div>
+        <div>
+       
+            <input type="text" maxlength="6" id="re" name="RE:" placeholder="RE " required>
+                <br>
+            <input type="password" maxlength="2" id="senha" name="senha" placeholder="SENHA " required>
+
+                <br> 
+
+                <div class="botão">
+                    <button onclick="ENTRAR()" type="submit"> ENTRAR </button>
+                </div>
+            
+           
+        </div> 
+    </div>
+
+
+
+    <script src="paginaLOGIN.js"></script>
+</body>
+</html>
